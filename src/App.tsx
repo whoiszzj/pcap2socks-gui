@@ -154,12 +154,12 @@ class App extends React.Component<{}, State> {
       interface: "",
       mtu: 0,
       // Device
-      preset: 1,
+      preset: 2,
       source: "10.6.0.1",
       publish: "10.6.0.2",
       // Proxy
       protocol: 0,
-      destination: "localhost:1080",
+      destination: "localhost:7897",
       authentication: false,
       username: "",
       password: "",
