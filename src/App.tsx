@@ -159,7 +159,7 @@ class App extends React.Component<{}, State> {
       publish: "10.6.0.2",
       // Proxy
       protocol: 0,
-      destination: "localhost:7897",
+      destination: "localhost:7897", // test
       authentication: false,
       username: "",
       password: "",
